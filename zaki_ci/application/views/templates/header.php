@@ -19,6 +19,7 @@
 
 <body>
 
+  <!-- application/views/navbar.php -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
       <a class="navbar-brand" href="#">CI App</a>
@@ -31,7 +32,7 @@
           <a class="nav-item nav-link" href="<?= base_url(); ?>">Home
             <span class="sr-only">(current)</span></a>
           <a class="nav-item nav-link" href="<?= base_url(); ?>mahasiswa">Mahasiswa</a>
-          <a class="nav-item nav-link" href="#">About</a>
+          <a class="nav-item nav-link" href="<?= base_url(); ?>home/about">About</a> <!-- Updated link -->
         </div>
       </div>
     </div>
